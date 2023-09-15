@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    background: hsl(221, 100%, 96%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    max-width: 600px;
+    min-height: 400px;
+}
+
+main section.purple {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+main section.purple span {
+    color: hsla(228, 100%, 98%, 0.589);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+main section.purple h3 {
+    color: #FFF;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+main section.purple div.points {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section.purple div.points h3 {
+    color: #FFF;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+main section.purple div.points span{
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+}
+
+main section.white {
+    background: hsl(0, 0%, 100%);
+    border-radius: 0 1rem 1rem 0;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 2rem;
+    min-width: 300px;
+}
+
+main section.white h2 {
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    margin-top: 1rem;
+}
+
+main section.white div.reaction {
+    background: hsla(0, 100%, 67%, 0.103);
+    border-radius: 0.5rem;
+    color: hsl(224, 30%, 27%);
+    padding: 0.8rem 1rem;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+main section.white div.reaction img {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.reaction span:nth-child(2) {
+    margin-right: 3rem; 
+    color: hsl(0, 100%, 67%);
+    font-weight: 600;
+}
+
+main section.white div.reaction strong {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.reaction span{
+    color: hsl(0, 0%, 61%);
+    font-weight: 600;
+}
+
+
