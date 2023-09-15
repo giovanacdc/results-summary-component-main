@@ -33,7 +33,7 @@ main section.purple {
 main section.purple span {
     color: hsla(228, 100%, 98%, 0.589);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 2rem;
     margin-top: 1rem;
     text-align: center;
@@ -47,10 +47,10 @@ main section.purple h3 {
 }
 
 main section.purple div.points {
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ main section.purple div.points {
 
 main section.purple div.points h3 {
     color: #FFF;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 0;
     font-weight: 700;
     text-align: center;
@@ -73,17 +73,20 @@ main section.purple div.points span{
 
 main section.white {
     background: hsl(0, 0%, 100%);
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 1rem;
     display: flex;
     align-items: left;
     justify-content: space-around;
     flex-direction: column;
     padding: 0 2rem;
     min-width: 300px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
 }
 
 main section.white h2 {
     color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    font-weight: 700;
     text-align: left;
     margin-top: 1rem;
 }
@@ -94,8 +97,7 @@ main section.white div.reaction {
     color: hsl(224, 30%, 27%);
     padding: 0.8rem 1rem;
     display: flex; 
-    align-items: center; 
-    
+    align-items: center;
 }
 
 main section.white div.reaction img {
@@ -117,4 +119,104 @@ main section.white div.reaction span{
     font-weight: 600;
 }
 
+main section.white div.memory {
+    background: hsla(39, 100%, 56%, 0.103);
+    border-radius: 0.5rem;
+    color: hsl(224, 30%, 27%);
+    padding: 0.8rem 1rem;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+main section.white div.memory img {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.memory span:nth-child(2) {
+    margin-right: 3.1rem; 
+    color: hsl(39, 100%, 56%);
+    font-weight: 600;
+}
+
+main section.white div.memory strong {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.memory span{
+    color: hsl(0, 0%, 61%);
+    font-weight: 600;
+}
+
+main section.white div.verbal {
+    background: hsl(166, 100%, 37%, 0.103);
+    border-radius: 0.5rem;
+    color: hsl(224, 30%, 27%);
+    padding: 0.8rem 1rem;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+main section.white div.verbal img {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.verbal span:nth-child(2) {
+    margin-right: 4rem; 
+    color: hsl(166, 100%, 37%);
+    font-weight: 600;
+}
+
+main section.white div.verbal strong {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.verbal span{
+    color: hsl(0, 0%, 61%);
+    font-weight: 600;
+}
+
+main section.white div.visual {
+    background: hsl(234, 85%, 45%, 0.103);
+    border-radius: 0.5rem;
+    color: hsl(224, 30%, 27%);
+    padding: 0.8rem 1rem;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+main section.white div.visual img {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.visual span:nth-child(2) {
+    margin-right: 4.2rem; 
+    color: hsl(234, 85%, 45%);
+    font-weight: 600;
+}
+
+main section.white div.visual strong {
+    margin-right: 0.5rem; 
+}
+
+main section.white div.visual span{
+    color: hsl(0, 0%, 61%);
+    font-weight: 600;
+}
+
+main section.white button {
+    cursor: pointer;
+    border-radius: 2rem;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: #FFF;
+    padding: 0.8rem 0;
+    transition: background 0.3s;
+}
+
+main section.white button:hover {
+    background: hsl(224, 31%, 42%);
+}
 
