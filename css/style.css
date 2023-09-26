@@ -220,3 +220,56 @@ main section.white button:hover {
     background: hsl(224, 31%, 42%);
 }
 
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    main section.white div {
+        margin: 0.5rem;
+    }
+
+    main section.white h2{
+        margin-bottom: 1rem;
+    }
+
+    main section.white button {
+        margin: 1.5rem;
+    }
+    
+    main section.white div.visual span:nth-child(2) {
+        margin-right: 9rem; 
+    }
+
+    main section.white div.verbal span:nth-child(2) {
+        margin-right: 8.8rem; 
+    }
+
+    main section.white div.memory span:nth-child(2) {
+        margin-right: 8rem; 
+    }
+
+    main section.white div.reaction span:nth-child(2) {
+        margin-right: 7.8rem; 
+    }
+}
+
+@media screen and (max-width: 390px){
+    
+    main section.white div.visual span:nth-child(2) {
+        margin-right: 7.5rem; 
+    }
+
+    main section.white div.verbal span:nth-child(2) {
+        margin-right: 7.3rem; 
+    }
+
+    main section.white div.memory span:nth-child(2) {
+        margin-right: 6.5rem; 
+    }
+
+    main section.white div.reaction span:nth-child(2) {
+        margin-right: 6.3rem; 
+    }
+}
